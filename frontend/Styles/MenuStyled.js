@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const MenuContainer = styled.div`
     background-color:${({theme}) => theme.colors.Branco};
     width: 100%; 
-    max-width: 480px;
+    max-width: 479px;
     height: 85px;
     position:fixed;
     bottom: 0;
