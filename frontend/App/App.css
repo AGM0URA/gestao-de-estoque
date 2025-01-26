@@ -10,6 +10,14 @@
     font-style: normal;
 
 }
-body{
+body {
+    font-size: 16px;
     background-color: #FDC0DF;
+    overflow-x: hidden; 
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
 }
